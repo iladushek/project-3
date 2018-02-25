@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans:300,400");
+/* Layout */
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1300px;
+  margin: 0 auto; }
+
+p {
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #a87bb7;
+  line-height: 33px; }
+
+.button {
+  background-color: #58c4c4;
+  color: #fff;
+  text-decoration: none;
+  padding: 20px 50px;
+  font-size: 18px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  border: 3px solid #58c4c4;
+  border-radius: 5px;
+  text-transform: uppercase;
+  -webkit-transition: all .5 ease;
+  -o-transition: all .5 ease;
+  transition: all .5 ease; }
+  .button:hover {
+    background-color: transparent;
+    color: #58c4c4;
+    border: 3px solid #58c4c4; }
+
+.header {
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  height: 1460px; }
+  .header .header-title {
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 450px; }
+    .header .header-title h1 {
+      font-size: 60px;
+      color: #521a66;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300; }
+  .header .second-title {
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    padding-bottom: 200px; }
+    .header .second-title h2 {
+      font-size: 40px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      text-transform: uppercase; }
+
+.design {
+  background-image: url(../img/Base.jpg);
+  background-size: cover;
+  height: 1026px; }
+  .design .phone-design {
+    padding-top: 160px;
+    position: relative; }
+    .design .phone-design .phone-pic img {
+      max-width: 100%; }
+    .design .phone-design .phone-description {
+      text-align: right;
+      font-size: 20px;
+      color: #fff;
+      float: right;
+      position: absolute;
+      right: 0;
+      bottom: 530px; }
+      .design .phone-design .phone-description h3 {
+        font-size: 30px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300; }
+
+.design-text {
+  margin-top: 150px;
+  text-align: left;
+  margin: 140px auto; }
+  .design-text .head h4 {
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #521a66;
+    letter-spacing: 5px;
+    letter-spacing: 0.2em; }
+  .design-text .head p {
+    text-align: justify; }
+  .design-text .head .button {
+    margin-top: 70px; }
+
+.rush {
+  text-align: center;
+  background-image: url(../img/section-bg.jpg);
+  background-size: cover;
+  height: 100%;
+  padding: 125px 0 100px; }
+  .rush h2 {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    line-height: 40px; }
+  .rush P {
+    padding-bottom: 30px; }
+
+.bars {
+  text-align: center;
+  margin: 75px 0 125px; }
+  .bars .title-wrap {
+    font-size: 20px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    color: #662e79; }
+    .bars .title-wrap span {
+      font-size: 40px;
+      color: #80407a; }
+  .bars p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #bcc0c1; }
+
+.social {
+  background-color: #303d4c;
+  height: 85px;
+  text-align: center; }
+  .social .social-links {
+    padding-top: 25px; }
+    .social .social-links a {
+      font-size: 35px;
+      padding-left: 25px;
+      color: #25303e;
+      -webkit-transition: all .5s ease;
+      -o-transition: all .5s ease;
+      transition: all .5s ease;
+      cursor: pointer; }
+      .social .social-links a:hover {
+        color: #fff; }
+
+.footer {
+  background-color: #25303e;
+  height: 140px; }
+  .footer .footer-text {
+    padding-top: 40px; }
+    .footer .footer-text h4 {
+      margin-bottom: 0;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: "Lato", sans-serif;
+      font-weight: 700;
+      color: #6a7b85;
+      letter-spacing: 0.2em;
+      float: left; }
+    .footer .footer-text p {
+      font-size: 15px;
+      color: #6a7b85;
+      float: right; }
+
+.my-dots {
+  position: absolute;
+  bottom: -45px;
+  display: block;
+  width: 100%;
+  padding: 0;
+  list-style: none;
+  text-align: center; }
+
+.my-dots li {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+  padding: 0;
+  cursor: pointer; }
+
+.my-dots li button {
+  font-size: 0;
+  line-height: 0;
+  display: block;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: pointer;
+  color: transparent;
+  border: 0;
+  outline: none;
+  background: transparent; }
+
+.my-dots li button:hover,
+.my-dots li button:focus {
+  outline: none; }
+
+.my-dots li button:hover:before,
+.my-dots li button:focus:before {
+  opacity: 1; }
+
+.my-dots li button:before {
+  font-family: 'slick';
+  font-size: 6px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: url("https://upload.wikimedia.org/wikipedia/commons/b/b7/Rule_Segment_-_Circle_open_-_20px.svg");
+  text-align: center;
+  opacity: .25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.my-dots li.slick-active button:before {
+  opacity: .75;
+  color: black; }
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
+
+input[type="submit"],
+input[type="button"],
+button,
+.button {
+  display: inline-block; }
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+  -webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  -o-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+  transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in; }
